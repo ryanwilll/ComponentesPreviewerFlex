@@ -8,6 +8,7 @@
 }
 
 main {
+  background-color: var(--Transparent);
   width: 100vw;
   display: flex;
   justify-content: center;
@@ -47,6 +48,7 @@ section a {
 .flex-container3 {
   background-color: var(--VeryDarkCyan);
   border-radius: 0 0 0.5em 0.5em;
+  margin: 0 0 2em 0;
 }
 .flex-container3 a {
   color: var(--VeryDarkCyan);
@@ -84,7 +86,31 @@ section div a {
   margin: 3em 0;
 }
 
-@media screen and (min-width: 1049px) {
+@media screen and (min-width: 992px) {
+  main {
+    margin: 0;
+    height: 100vh;
+    flex-wrap: nowrap;
+    justify-content: center;
+  }
+
+  .flex-container1 {
+    border-radius: 0.5em 0 0 0.5em;
+  }
+  .flex-container3 {
+    border-radius: 0 0.5em 0.5em 0;
+    margin: 0;
+  }
+  section {
+    max-width: 30%;
+    max-height: 70%;
+  }
+  section div img {
+    margin: 1em 0 0 0;
+  }
+}
+
+@media screen and (min-width: 1200px) {
   body {
     position: relative;
   }
@@ -106,5 +132,6 @@ section div a {
   }
   .flex-container3 {
     border-radius: 0 0.5em 0.5em 0;
+    margin: 0;
   }
 }
