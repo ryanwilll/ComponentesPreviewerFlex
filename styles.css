@@ -1,0 +1,81 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Big Shoulders Display", cursive;
+  font-family: "Lexend Deca", sans-serif;
+}
+:root {
+  --BrightOrange: hsl(31, 77%, 52%);
+  --DarkCyan: hsl(184, 100%, 22%);
+  --VeryDarkCyan: hsl(179, 100%, 13%);
+
+  --Transparent: hsla(0, 0%, 100%, 0.75);
+  --VeryLightGray: hsl(0, 0%, 95%);
+}
+
+main {
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 2em 0 2em;
+  box-sizing: border-box;
+}
+
+section {
+  max-width: 90vw;
+  height: 600px;
+}
+
+section > div {
+  width: 70%;
+  margin: 0 auto;
+}
+.flex-container1 {
+  border-radius: 0.5em 0.5em 0 0;
+  background-color: var(--BrightOrange);
+}
+.flex-container1 a {
+  color: var(--BrightOrange);
+}
+.flex-container2 {
+  background-color: var(--DarkCyan);
+}
+.flex-container2 a {
+  color: var(--DarkCyan);
+}
+.flex-container3 {
+  background-color: var(--VeryDarkCyan);
+  border-radius: 0 0 0.5em 0.5em;
+}
+.flex-container3 a {
+  color: var(--VeryDarkCyan);
+}
+
+section div img {
+  margin: 3em 0;
+}
+
+section div h1 {
+  text-transform: uppercase;
+  font-size: 3em;
+  font-family: "Big Shoulders Display", cursive;
+  color: var(--VeryLightGray);
+  margin: 0.5em 0;
+}
+
+section div p {
+  color: var(--Transparent);
+  font-size: 1.05em;
+  line-height: 2em;
+}
+
+section div a {
+  display: inline-block;
+  text-decoration: none;
+  background-color: var(--VeryLightGray);
+  padding: 1em 2em;
+  border-radius: 10em;
+  margin: 3em 0;
+}
