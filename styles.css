@@ -32,6 +32,10 @@ section > div {
   width: 70%;
   margin: 0 auto;
 }
+
+section a {
+  transition: all ease-in-out 0.4s;
+}
 .flex-container1 {
   border-radius: 0.5em 0.5em 0 0;
   background-color: var(--BrightOrange);
@@ -53,6 +57,11 @@ section > div {
   color: var(--VeryDarkCyan);
 }
 
+.btn:hover {
+  background-color: transparent;
+  color: var(--VeryLightGray);
+  border: 2px solid var(--VeryLightGray);
+}
 section div img {
   margin: 3em 0;
 }
@@ -78,4 +87,14 @@ section div a {
   padding: 1em 2em;
   border-radius: 10em;
   margin: 3em 0;
+}
+
+footer {
+  max-width: 85vw;
+  margin: 1em auto;
+  text-align: center;
+}
+footer a {
+  text-decoration: none;
+  color: blueviolet;
 }
