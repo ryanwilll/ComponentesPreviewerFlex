@@ -84,6 +84,7 @@ main {
   flex-wrap: wrap;
   margin: 2em 0 2em;
   box-sizing: border-box;
+  font-family: "Lexend Deca", cursive;
 }
 
 section {
@@ -152,17 +153,10 @@ section div a {
   margin: 3em 0;
 }
 
-footer {
-  max-width: 90vw;
-  margin: 1em auto;
-  text-align: center;
-}
-footer a {
-  text-decoration: none;
-  color: blueviolet;
-}
-
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 1049px) {
+  body {
+    position: relative;
+  }
   main {
     margin: 0;
     height: 100vh;
@@ -175,10 +169,6 @@ footer a {
   }
   section div img {
     margin: 1em 0 0 0;
-  }
-  footer {
-    display: block;
-    margin-bottom: 2em;
   }
   .flex-container1 {
     border-radius: 0.5em 0 0 0.5em;
