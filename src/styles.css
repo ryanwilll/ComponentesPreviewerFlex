@@ -124,6 +124,10 @@ section div a {
     max-width: 25%;
     max-height: 70%;
   }
+  .btn {
+    margin: 1em 0 0 0;
+  }
+
   section div img {
     margin: 1em 0 0 0;
   }
@@ -133,5 +137,28 @@ section div a {
   .flex-container3 {
     border-radius: 0 0.5em 0.5em 0;
     margin: 0;
+  }
+}
+@media screen and (max-height: 580px) {
+  section div h2 {
+    font-size: 2em;
+  }
+  .flex-container2 {
+    max-width: 30%;
+  }
+  section div p {
+    font-size: 1em;
+  }
+}
+@media screen and (max-height: 550px) {
+  section div p {
+    font-size: 0.8em;
+  }
+}
+@media screen and (max-height: 500px) {
+  .flex-container1,
+  .flex-container2,
+  .flex-container3 {
+    max-width: 82.7%;
   }
 }
